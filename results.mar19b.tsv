@@ -1,6 +1,0 @@
-commit	avg_speedup	min_speedup	latency_ms	status	description
-9b3c69e	24.783500	23.360000	0.058	keep	baseline
-5e18b92	24.795500	16.440000	0.064	keep	narrow BV2/BV4 staged autotune set
-de821ee	25.516500	12.200000	0.060	keep	add BV8 fallback configs
-f5a6707	25.359000	23.880000	0.059	discard	add BV16 fallback config
-de54cba	26.780000	26.290000	0.046	keep	deepen BV8 fallback staging
