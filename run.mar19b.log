@@ -1,0 +1,42 @@
+✓ Initialized. View run at 
+https://modal.com/apps/kjms2026/main/ap-7rAjVDFuMfcwBSZQgeOQ3n
+✓ Created objects.
+├── 🔨 Created mount 
+│   /home/jsg1504/workdir/autoresearch/mlsys26/scripts/run_modal.py
+└── 🔨 Created function run_benchmark.
+Packing solution from source files...
+Solution packed: /home/jsg1504/workdir/autoresearch/mlsys26/solution.json
+  Name: my-team-solution-v1
+  Definition: gdn_decode_qk4_v8_d128_k_last
+  Author: MSInfer
+  Language: triton
+
+Loading solution...
+Loaded: my-team-solution-v1 (gdn_decode_qk4_v8_d128_k_last)
+
+Running benchmark on Modal B200...
+
+gdn_decode_qk4_v8_d128_k_last:
+  Workload 6700a748...: PASSED | 0.046 ms | 28.15x speedup | abs_err=9.77e-04, rel_err=5.56e-02
+  Workload d66ae544...: PASSED | 0.046 ms | 26.74x speedup | abs_err=2.44e-04, rel_err=3.74e-01
+  Workload bf115ff9...: PASSED | 0.046 ms | 26.74x speedup | abs_err=3.91e-03, rel_err=1.10e-01
+  Workload 30bb1856...: PASSED | 0.046 ms | 26.64x speedup | abs_err=7.81e-03, rel_err=1.72e-02
+  Workload 48a5be68...: PASSED | 0.045 ms | 26.93x speedup | abs_err=4.88e-04, rel_err=1.41e-02
+  Workload 6f09252c...: PASSED | 0.045 ms | 26.83x speedup | abs_err=9.77e-04, rel_err=3.68e-02
+  Workload 1e4e5a87...: PASSED | 0.045 ms | 26.74x speedup | abs_err=1.95e-03, rel_err=2.05e-01
+  Workload 8e3e1aa6...: PASSED | 0.046 ms | 26.63x speedup | abs_err=1.56e-02, rel_err=2.23e-01
+  Workload 741eb2c4...: PASSED | 0.045 ms | 26.82x speedup | abs_err=2.44e-04, rel_err=9.76e-02
+  Workload 562d6431...: PASSED | 0.045 ms | 26.72x speedup | abs_err=1.91e-05, rel_err=1.68e-01
+  Workload cf76ded3...: PASSED | 0.045 ms | 26.87x speedup | abs_err=1.56e-02, rel_err=5.02e-02
+  Workload 55b3b0a4...: PASSED | 0.045 ms | 26.78x speedup | abs_err=3.05e-05, rel_err=4.07e-02
+  Workload 8add0e58...: PASSED | 0.045 ms | 26.75x speedup | abs_err=3.43e-05, rel_err=7.61e-02
+  Workload 5727c2b1...: PASSED | 0.046 ms | 26.49x speedup | abs_err=3.05e-05, rel_err=4.31e-02
+  Workload cc8d77b2...: PASSED | 0.045 ms | 26.89x speedup | abs_err=4.96e-05, rel_err=1.50e-02
+  Workload 3bd97bb8...: PASSED | 0.046 ms | 26.64x speedup | abs_err=1.95e-03, rel_err=3.96e-02
+  Workload f1b6043f...: PASSED | 0.046 ms | 26.54x speedup | abs_err=3.24e-05, rel_err=7.03e-02
+  Workload 8038c14e...: PASSED | 0.046 ms | 26.62x speedup | abs_err=2.29e-05, rel_err=1.43e-01
+  Workload 03436065...: PASSED | 0.046 ms | 26.79x speedup | abs_err=1.22e-04, rel_err=2.54e-01
+  Workload c40fb468...: PASSED | 0.046 ms | 26.29x speedup | abs_err=9.77e-04, rel_err=9.44e-02
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/kjms2026/main/ap-7rAjVDFuMfcwBSZQgeOQ3n
